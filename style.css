@@ -9,10 +9,6 @@ a{
     text-decoration: none;
 }
 
-body *{
-    border: 1px solid black;
-}
-
 /*HEADER*/
 
 /*logo sub-section*/
@@ -55,23 +51,32 @@ nav img[src*="/chevron-"]{
     display: inline-block !important;
 }
 
+.nav-link.show span{
+    color: #0070d1;
+}
+
+.nav-link.show img[src*="-hover"]{
+    transform: rotate(180deg);
+}
+
 /*button*/
 
-#button{
-    border-radius: 16px;
-    padding: 0px 10px;
-    border: 2px solid #292b2c;
+.custom_btn{
+    padding: 5px 15px;
+    border-radius: 25px; 
 }
 
-#button-outline{
-    border-radius: 16px;
-    padding: 0 4px;
-    height: 35px;
+.custom_btn:hover {
+    transition: 0.3s ease-in-out;
 }
 
-#button-outline:hover #button{
-    border: 2px solid white;
-    transition: 0.5s ease
+#accedi{
+    background-color: #363636;
+    border: 4px solid #363636;
+}
+  
+#accedi:hover{
+    box-shadow: inset 0 0 0 3px white;
 }
 
 /*dropdown*/
@@ -86,4 +91,28 @@ nav img[src*="/chevron-"]{
 
 .phover:hover{
     box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3)
+}
+
+/*MAIN*/
+
+/*jumbo*/
+
+.jumbobg{
+    background-image: url(images/jumbo-bg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#jumbo{
+    height: 680px;
+}
+
+/*button*/
+
+#acquista{
+    background-color: #cd3d0f;
+}
+
+#acquista:hover{
+
 }
