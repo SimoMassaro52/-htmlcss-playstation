@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 a{
     text-decoration: none;
 }
@@ -66,7 +70,7 @@ nav img[src*="/chevron-"]{
 }
 
 .custom_btn:hover {
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 #accedi{
@@ -75,7 +79,7 @@ nav img[src*="/chevron-"]{
 }
   
 #accedi:hover{
-    box-shadow: inset 0 0 0 3px white;
+    box-shadow: inset 0 0 0 2px white;
 }
 
 /*dropdown*/
@@ -114,7 +118,7 @@ nav img[src*="/chevron-"]{
 }
 
 #acquista:hover{
-    box-shadow: inset 0 0 0 3px white;
+    box-shadow: inset 0 0 0 2px white;
 }
 
 
@@ -134,7 +138,24 @@ nav img[src*="/chevron-"]{
 
 /*PS5 SECTION*/
 
+.pblu{
+    color: #0070d1;;
+}
 
+#ps5{
+    height: 100vh;
+}
+
+/*button*/
+
+#infor{
+    background-color: #0070d1;
+    border: 4px solid #0070d1; 
+}
+
+#infor:hover{
+    box-shadow: inset 0 0 0 2px white;
+}
 
 @media screen and (max-width:992px) {
     .src-outline{
