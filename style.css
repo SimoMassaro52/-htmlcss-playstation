@@ -193,10 +193,6 @@ nav img[src*="/chevron-"]{
     border-radius: 20px;
 }
 
-body *{
-    border: 1px solid black;
-}
-
 /*ps plus section*/
 
 .custom_bg-gray{
@@ -209,6 +205,12 @@ body *{
 
 #explore:hover{
     box-shadow: 0 0 0 2px lightslategray;
+}
+
+/*ps now section*/
+
+.custom_bg-darkblue{
+    background-color: #161c3b;
 }
 
 @media screen and (max-width:992px) {
