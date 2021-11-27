@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 }
 
+.custom_pointer{
+    cursor: pointer;
+}
+
 /*HEADER*/
 
 /*logo sub-section*/
@@ -84,10 +88,6 @@ nav img[src*="/chevron-"]{
 
 /*dropdown*/
 
-.pcard{
-    cursor: pointer;
-}
-
 .pcard img{
     height: 85px;
 }
@@ -127,7 +127,6 @@ nav img[src*="/chevron-"]{
 .slidecard > img{
     border: 2px solid white;
     border-radius: 20px;
-    cursor: pointer;
 }
 
 .slidecard:hover > img{
@@ -166,7 +165,6 @@ nav img[src*="/chevron-"]{
 
 .devicehover:hover{
     border-bottom: 2px solid #0070d1;
-    cursor: pointer;
     filter: none;
     transition: ease-in-out 0.2s;
 }
@@ -186,13 +184,11 @@ nav img[src*="/chevron-"]{
 
 /*upcoming games section*/
 
-.gamecard{
-    cursor: pointer;
-}
-
 .gamecard > img{
     border-radius: 20px;
 }
+
+/*explore devices section*/
 
 /*ps plus section*/
 
@@ -200,11 +196,11 @@ nav img[src*="/chevron-"]{
     background-color: #bebcbb;
 }
 
-#explore{
+#explore-plus, #explore-now{
     background-color: #d9dadc;
 }
 
-#explore:hover{
+#explore-plus:hover{
     box-shadow: 0 0 0 2px lightslategray;
 }
 
@@ -214,8 +210,22 @@ nav img[src*="/chevron-"]{
     background-color: #161c3b;
 }
 
+#explore-now{
+    border: 2px solid #d9dadc;
+}
+
+#explore-now:hover{
+    box-shadow: inset 0 0 0 2px #161c3b;
+}
+
 body *{
     border: 1px solid black;
+}
+
+/*FOOTER*/
+
+.custom_bg-blu{
+    background-color: #0070d1;
 }
 
 @media screen and (max-width:992px) {
