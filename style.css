@@ -197,6 +197,20 @@ body *{
     border: 1px solid black;
 }
 
+/*ps plus section*/
+
+.custom_bg-gray{
+    background-color: #bebcbb;
+}
+
+#explore{
+    background-color: #d9dadc;
+}
+
+#explore:hover{
+    box-shadow: 0 0 0 2px lightslategray;
+}
+
 @media screen and (max-width:992px) {
     .src-outline{
         border: 1px solid black;
