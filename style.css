@@ -5,12 +5,12 @@
     padding: 0;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 a{
     text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .custom_pointer{
@@ -201,7 +201,7 @@ nav img[src*="/chevron-"]{
 }
 
 #explore-plus:hover{
-    box-shadow: 0 0 0 2px lightslategray;
+    box-shadow: 0 0 0 2px lightgray;
 }
 
 /*ps now section*/
@@ -218,14 +218,22 @@ nav img[src*="/chevron-"]{
     box-shadow: inset 0 0 0 2px #161c3b;
 }
 
-body *{
-    border: 1px solid black;
-}
-
 /*FOOTER*/
 
 .custom_bg-blu{
     background-color: #0070d1;
+}
+
+#planet{
+    width: 1.2em;
+}
+
+#sonylegal{
+    width: 150px;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 @media screen and (max-width:992px) {
