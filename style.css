@@ -98,11 +98,12 @@ nav img[src*="/chevron-"]{
 
 /*MAIN*/
 
-/*jumbo*/
+/*jumbo1*/
 
-.jumbobg{
+.jumbobg-first{
     background-image: url(images/jumbo-bg.png);
-    background-position: center top;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -121,16 +122,15 @@ nav img[src*="/chevron-"]{
     box-shadow: inset 0 0 0 2px white;
 }
 
-
 /*"sliding" section*/
 
-.slidecard > *{
+.slidecard > img{
     border: 2px solid white;
     border-radius: 20px;
     cursor: pointer;
 }
 
-.slidecard:hover > *{
+.slidecard:hover > img{
     box-shadow: 0 0 0 2px #0070d1;
     transform: translate(0, -15px);
     transition: ease 0.3s;
@@ -157,8 +157,50 @@ nav img[src*="/chevron-"]{
     box-shadow: inset 0 0 0 2px white;
 }
 
+/*devices sub-section*/
+
+.devicehover{
+    filter: opacity(50%);
+    min-height: 180px;      
+}
+
+.devicehover:hover{
+    border-bottom: 2px solid #0070d1;
+    cursor: pointer;
+    filter: none;
+}
+
+.devicecard img{
+    width: 100px;
+}
+
+/*jumbo2*/
+
+.jumbobg-second{
+    background-image: url(images/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*upcoming games section*/
+
+.gamecard{
+    cursor: pointer;
+}
+
+.gamecard > img{
+    border-radius: 20px;
+}
+
+body *{
+    border: 1px solid black;
+}
+
 @media screen and (max-width:992px) {
     .src-outline{
         border: 1px solid black;
     }
 }
+
+
