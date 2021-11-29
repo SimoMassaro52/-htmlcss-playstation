@@ -63,8 +63,13 @@ nav img[src*="/chevron-"]{
     color: #0070d1;
 }
 
+.nav-link.show img[src*="-solid"]{
+    display: none !important;
+}
+
 .nav-link.show img[src*="-hover"]{
     transform: rotate(180deg);
+    display: inline-block !important;
 }
 
 /*button*/
